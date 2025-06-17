@@ -3,7 +3,7 @@
 ## Dataset
 Link : https://universe.roboflow.com/jccalugasupeduph/dog-and-cat-face-detection/dataset/1
 
-Before training, set the paths for the train, test, and val datasets in the data.yaml file. A sample data.yaml.
+Before training, set the paths for the train, test, and val datasets in the data.yaml file.
 
 ## Train
 You can train a YOLOv5 model using either of the two scripts provided:
