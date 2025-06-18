@@ -5,6 +5,22 @@ Link : https://universe.roboflow.com/jccalugasupeduph/dog-and-cat-face-detection
 
 Before training, set the paths for the train, test, and val datasets in the data.yaml file.
 
+## Project Structure
+├── video/ # Input videos for detection
+│ └── *.mp4
+├── csv_output/ # CSV files of detection results (optional)
+│ └── *.csv
+├── model/ # Trained YOLO model weights
+│ └── best.pt # YOLOv5 model
+│ └── yolov8_best.pt # YOLOv8 model
+├── output/ # Output videos with bounding boxes
+│ └── *.mp4
+├── main.py # Main application entry (optional)
+├── test_model.py # Inference script for YOLOv5
+├── test_model_v8.py # Inference script for YOLOv8
+├── train_yolov5.py # Training script for YOLOv5
+├── train_yolov8.py # Training script for YOLOv8
+
 ## Train
 You can train a YOLOv5 model using either of the two scripts provided:
 
