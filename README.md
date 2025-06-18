@@ -43,3 +43,13 @@ Then, train the model from scratch:
 ```bash 
 python train.py --data data.yaml --epochs 100 --weights '' --cfg yolov5n.yaml --batch-size 16
 ```
+
+## Test model
+- add video in video folder
+
+Run the custom model script with:
+```bash
+python test_model_v8.py
+```
+
+- and see output video in output folder
