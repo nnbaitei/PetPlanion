@@ -11,7 +11,8 @@ TRAIN_PARAMS = {
     "epochs": 100,
     "data": DATASET_YAML_PATH,
     "weights": "yolov5n.pt",
-    "name": "result"
+    "name": "result",
+    "device": "0",
 }
 
 def run_command(command, description):

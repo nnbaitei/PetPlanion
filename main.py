@@ -53,12 +53,12 @@ def onlyFace(model, cap, csv_name):
 
 
 def main():
-    csv_name = 'data.csv'
+    csv_name = '../csv_output/data.csv'
 
-    video_path = r"istockphoto-1978695737-640_adpp_is.mp4"
+    video_path = r"../video/istockphoto-1978695737-640_adpp_is.mp4"
     cap = cv2.VideoCapture(video_path)
 
-    model = YOLO('yolov8n.pt')
+    model = '../model/best.pt'
     fullBody(model, cap, csv_name)
 
     cap.release()
